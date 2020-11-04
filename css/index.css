@@ -1,0 +1,40 @@
+body {
+  background: #2a2b2e;
+  position: absolute; }
+
+.main-header {
+  background: #2d2e32;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 100%; }
+  @media only screen and (max-width: 1064px) {
+    .main-header {
+      height: 80px;
+      width: 100%; } }
+
+.nav-button {
+  width: 28px;
+  height: 50px;
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  margin-top: 30px;
+  margin-left: 24px; }
+  @media only screen and (max-width: 1064px) {
+    .nav-button {
+      float: right;
+      margin-right: 30px; } }
+
+.nav-button span {
+  width: 100%;
+  float: left;
+  margin-bottom: 6px;
+  height: 2px;
+  background: #FAC921;
+  position: relative;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
+
+/*# sourceMappingURL=index.css.map */
