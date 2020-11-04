@@ -1,3 +1,3 @@
-# resumeSite
+# Resume-Site
 
 Work in progress
